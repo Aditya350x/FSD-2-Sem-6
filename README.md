@@ -4,7 +4,7 @@
 - Name: Aditya Vardhan Singh  
 - UID: 23BDA70124  
 - Section: 23BDA-1B  
-- Subject: Full Stack Development (FSD)  
+- Subject: Full Stack Development-2 (FSD)  
 - Semester: 6  
 
 ---
