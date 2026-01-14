@@ -1,4 +1,4 @@
-# 📘 Full Stack Development – Experiment 1
+# 📘 Full Stack Development 2 – Experiment 1
 
 ## 👤 Student Details
 - Name: Aditya Vardhan Singh  
