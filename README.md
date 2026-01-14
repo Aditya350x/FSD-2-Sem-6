@@ -1,41 +1,39 @@
-📘 Full Stack Development 2 – Experiment 1
-👤 Student Details
+# **📘 Full Stack Development – Experiment 1**
 
-Name: Aditya Vardhan Singh
+---
 
-UID: 23BDA70124
+## **👤 Student Details**
+- **Name:** **Aditya Vardhan Singh**  
+- **UID:** **23BDA70124**  
+- **Section:** **23BDA-1B**  
+- **Subject:** **Full Stack Development (FSD)**  
+- **Semester:** **6**
 
-Section: 23BDA-1B
+---
 
-Subject: Full Stack Development (FSD)
+## **🧪 Experiment Title**
+**Creation of a React Application using Vite with Component-Based Architecture**
 
-Semester: 6
+---
 
-🧪 Experiment Title
+## **🎯 Aim of the Experiment**
+**To design and develop a basic frontend application using React and Vite, demonstrating component-based architecture, proper project structuring, and version control using GitHub.**
 
-Creation of a React Application using Vite with Component-Based Architecture
+---
 
-🎯 Aim of the Experiment
+## **🛠️ Tools & Technologies Required**
+- **VS Code** – Code editor  
+- **Node.js & npm** – JavaScript runtime and package manager  
+- **React.js** – Frontend library  
+- **Vite** – Build tool for fast React development  
+- **HTML5 & CSS3** – Structure and styling  
+- **Git & GitHub** – Version control and repository hosting  
+- **Web Browser** – Chrome / Edge / Firefox  
 
-To design and develop a basic frontend application using React and Vite, demonstrating the use of component-based architecture, proper project structure, and version control using GitHub.
+---
 
-🛠️ Tools & Technologies Required
-
-VS Code – Code editor
-
-Node.js & npm – JavaScript runtime and package manager
-
-React.js – Frontend library
-
-Vite – Build tool for fast React development
-
-HTML5 & CSS3 – Structure and styling
-
-Git & GitHub – Version control and repository hosting
-
-Web Browser – Chrome / Edge / Firefox
-
-🧩 Project Structure
+## **🧩 Project Structure**
+```text
 experiment-1/
  ├── public/
  ├── src/
@@ -51,63 +49,47 @@ experiment-1/
  ├── vite.config.js
  └── README.md
 
-⚙️ Procedure
+---
 
-Installed Node.js and npm on the system.
+## **⚙️ Procedure**
+1. **Installed Node.js and npm** on the system to support React development.
+2. **Created a new React project** using Vite for faster build and development.
+3. **Opened the project in VS Code** for writing and managing the source code.
+4. **Organised the project structure** by creating separate folders for components.
+5. **Developed functional React components** using JSX syntax.
+6. **Integrated components** into the main `App.jsx` file.
+7. **Applied basic CSS styling** to improve the user interface.
+8. **Executed the application locally** using the following commands:
+   ```bash
+   npm install
+   npm run dev
 
-Created a new React project using Vite.
+---
 
-Opened the project in VS Code.
+## **✅ Result**
+The React application was successfully created and executed using **Vite**.  
+The experiment achieved the following outcomes:
 
-Organized the project into components and pages.
+- Successful creation of a React project using Vite  
+- Proper implementation of reusable React components  
+- Clean and well-organized project structure  
+- Smooth execution of the application in the web browser  
+- Successful version control and submission using GitHub  
 
-Implemented functional components using JSX.
+---
 
-Applied basic CSS styling for UI enhancement.
-
-Tested the application locally using:
-
-npm install
-npm run dev
-
-
-Initialized a Git repository and committed the project.
-
-Pushed the project to GitHub for version control and submission.
-
-✅ Result
-
-The React application was successfully created and executed using Vite.
-The project demonstrates:
-
-Proper folder structure
-
-Reusable components
-
-Clean UI rendering
-
-Successful hosting on GitHub
-
-📚 Learning Outcomes
-
+## **📚 Learning Outcomes**
 After completing this experiment, the student is able to:
 
-Understand the fundamentals of React and Vite.
+- Understand the **fundamentals of React and Vite**
+- Create and manage a React project using modern development tools
+- Develop applications using **component-based architecture**
+- Implement **functional components** using JSX
+- Apply **CSS styling** to React applications
+- Execute and debug applications using **npm commands**
+- Use **Git and GitHub** for version control and academic submission
+- Follow proper **project documentation and structuring practices**
 
-Build applications using component-based architecture.
+---
 
-Create and manage functional components with JSX.
 
-Organize a frontend project using best practices.
-
-Apply basic styling using CSS in React.
-
-Run and test React applications using npm commands.
-
-Use Git and GitHub for version control and project submission.
-
-Develop confidence in modern frontend development workflows.
-
-📌 Conclusion
-
-This experiment provided hands-on experience in building a modern frontend application using React and Vite. It enhanced understanding of component-based development and introduced practical usage of GitHub for academic and real-world projects.
