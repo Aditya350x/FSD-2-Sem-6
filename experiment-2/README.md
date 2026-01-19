@@ -10,12 +10,12 @@
 ---
 
 ## 🧪 Experiment Title
-Development of a Multi-Page React Application using React Router DOM (Single Page Application)
+Building Reusable UI Components and Enhancing Page Architecture in React
 
 ---
 
 ## 🎯 Aim of the Experiment
-To design and develop a Single Page Application (SPA) using React and Vite, implementing client-side routing with `react-router-dom` to enable seamless navigation between multiple components without page reloads.
+To design and develop five reusable UI design components (Button, TextField, Select, Rating, and Checkbox) and integrate them into existing page components (Home, About, and Contact) to create a modular and interactive user interface.
 
 ---
 
@@ -24,7 +24,6 @@ To design and develop a Single Page Application (SPA) using React and Vite, impl
 - Node.js and npm
 - React.js
 - Vite
-- React Router DOM
 - HTML5 & CSS3
 - Git and GitHub
 
@@ -34,16 +33,15 @@ To design and develop a Single Page Application (SPA) using React and Vite, impl
 experiment-2/  
 │── public/
 │── src/
-│   ├── assets/
 │   ├── Components/
-│   │   ├── Home.jsx
-│   │   ├── About.jsx
-│   │   ├── Contact.jsx
-│   │   ├── Spa.jsx
-│   │   ├── Button.jsx
-│   │   ├── Checkbox.jsx
-│   │   ├── Select.jsx
-│   │   └── TextField.jsx
+│   │   ├── Home.jsx (Updated with UI components)
+│   │   ├── About.jsx (Updated with UI components)
+│   │   ├── Contact.jsx (Updated with UI components)
+│   │   ├── Button.jsx (UI Component)
+│   │   ├── TextField.jsx (UI Component)
+│   │   ├── Select.jsx (UI Component)
+│   │   ├── Rating.jsx (UI Component)
+│   │   └── Checkbox.jsx (UI Component)
 │   ├── App.jsx
 │   ├── main.jsx
 │   ├── App.css
@@ -56,35 +54,31 @@ experiment-2/
 ---
 
 ## ⚙️ Procedure
-1. Initialized a new React project using Vite and installed the `react-router-dom` library.
-2. Configured the main entry point in `main.jsx` to support routing.
-3. Created a dedicated `Components` folder to house modular UI elements and page views.
-4. Developed core page components including `Home.jsx`, `About.jsx`, and `Contact.jsx`.
-5. Created reusable UI components such as `Button`, `TextField`, `Checkbox`, and `Select`.
-6. Implemented a `Spa.jsx` component to manage navigation links and routing logic.
-7. Defined application routes using `<Routes>` and `<Route>` components in `App.jsx`.
-8. Applied global and component-specific styles using `index.css` and `App.css`.
-9. Verified the Single Page Application behavior by navigating between views without browser refreshes.
-10. Committed the final project structure to GitHub for version control.
+1. Created five separate functional components for UI elements: **Button, TextField, Select, Rating, and Checkbox**.
+2. Designed each UI component to be reusable by utilizing props for custom labeling and data handling.
+3. Copied the core page components (**Home, About, and Contact**) from Experiment 1 into the new project structure.
+4. Imported and integrated all five new UI components into the **Home** page to build a functional dashboard view.
+5. Added relevant UI components to the **About** and **Contact** pages to enhance user interactivity and form handling.
+6. Managed the layout and spacing of the integrated components using CSS Grid and Flexbox in `App.css`.
+7. Verified that each component renders correctly and maintains its individual state across different pages.
+8. Synchronized the final project with the GitHub repository, ensuring all new sub-folders are properly tracked.
 
 ---
 
 ## ✅ Result
-The Multi-Page React application was successfully developed as a Single Page Application (SPA). The navigation system functions correctly using React Router, allowing users to switch between different views smoothly while maintaining a clean, component-based architecture.
+The experiment was successfully completed by creating five modular UI components. By integrating these into the pages migrated from Experiment 1, a more robust and interactive component-based architecture was achieved.
 
 ---
 
 ## 📚 Learning Outcomes
 After completing this experiment, the student is able to:
-- Implement client-side routing using React Router DOM
-- Understand the difference between traditional multi-page sites and SPAs
-- Create complex component hierarchies and reusable UI elements
-- Manage navigation state and URL parameters in a React environment
-- Structure a larger-scale React project with multiple assets and components
-- Integrate third-party libraries into a Vite-based development workflow
-- Use Git to manage multi-experiment repository structures
+- Build highly reusable atom-level UI components in React.
+- Efficiently migrate and refactor code from previous projects.
+- Pass data and styles between parent (Page) and child (UI) components via props.
+- Implement complex form elements like Select, Rating, and Checkboxes within a React environment.
+- Maintain a clean and scalable project structure for growing applications.
 
 ---
 
 ## 📌 Conclusion
-This experiment provided practical knowledge on building SPAs, a core requirement for modern web development. It demonstrated how to effectively manage multiple views and reusable components within a single React application, further enhancing proficiency in full-stack frontend technologies
+This experiment demonstrated the power of the "Atomic Design" approach in React. By building small, reusable components first and then assembling them into pages, the development process becomes faster and the codebase remains much easier to maintain.
