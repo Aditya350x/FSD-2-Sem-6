@@ -1,16 +1,84 @@
-# React + Vite
+# 📘 Full Stack Development 2 – Experiment 3  
+## IMPLEMENT ROUTING IN SINGLE PAGE APPLICATION (SPA)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 👤 Student Details  
+Name: Aditya Vardhan Singh  
+UID: 23BDA70124  
+Section: 23BDA-1B  
+Subject: Full Stack Development-2 (FSD)  
+Semester: 6  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧪 Experiment Title  
+Implement Routing in Single Page Application (SPA) using React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🎯 Aim of the Experiment  
+To implement client-side routing in a Single Page Application (SPA) using React Router, enabling smooth navigation between multiple pages without reloading the browser and improving overall user experience.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tools & Technologies Required  
+Visual Studio Code  
+Node.js and npm  
+React.js  
+React Router DOM  
+Vite  
+HTML5 & CSS3  
+Git and GitHub  
+
+---
+
+## 🧩 Project Structure  
+experiment-2/  
+│── public/  
+│── src/  
+│   ├── Components/  
+│   │   ├── Home.jsx  
+│   │   ├── About.jsx  
+│   │   └── Contact.jsx  
+│   ├── App.jsx  
+│   ├── main.jsx  
+│   ├── App.css  
+│   └── index.css  
+│── index.html  
+│── package.json  
+│── vite.config.js  
+│── README.md  
+
+---
+
+## ⚙️ Procedure  
+1. Created a new React project using Vite for fast development.  
+2. Installed react-router-dom to enable client-side routing.  
+3. Created individual page components: Home, About, and Contact.  
+4. Configured routing in App.jsx using BrowserRouter, Routes, and Route.  
+5. Defined route paths for each page component.  
+6. Implemented navigation links for seamless page transitions.  
+7. Applied CSS styling for a clean and consistent layout.  
+8. Tested all routes to ensure proper navigation without page reloads.  
+9. Pushed the completed project to GitHub with proper version control.  
+
+---
+
+## ✅ Result  
+The experiment was successfully completed. Client-side routing was implemented in a React Single Page Application, allowing smooth and efficient navigation between multiple pages without browser reloads.
+
+---
+
+## 📚 Learning Outcomes  
+After completing this experiment, the student is able to:  
+- Understand the concept of Single Page Applications (SPA)  
+- Implement client-side routing using React Router  
+- Manage multiple pages within a React application  
+- Enhance application performance and user experience  
+- Maintain a clean and scalable React project structure  
+
+---
+
+## 📌 Conclusion  
+This experiment highlights the importance of routing in modern web applications. Implementing routing in a React SPA improves navigation speed, enhances user experience, and supports scalable application development using React Router.
