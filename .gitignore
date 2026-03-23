@@ -1,0 +1,8 @@
+node_modules/
+venv/
+myvir/
+__pycache__/
+*.pyc
+.env
+dist/
+build/
