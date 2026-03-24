@@ -4,8 +4,7 @@ import os
 
 app = Flask(__name__)
 
-# 🔥 REPLACE THIS AFTER DEPLOYING ORDER SERVICE
-ORDER_SERVICE_URL = "https://your-order-service.onrender.com"
+ORDER_SERVICE_URL = "https://two3bda70124-ex-11-order-service.onrender.com"
 
 customers = {
     101: {"id": 101, "name": "Customer-1", "email": "customer-1@example.com"},
