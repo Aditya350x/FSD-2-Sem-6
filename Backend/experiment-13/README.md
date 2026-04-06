@@ -103,3 +103,8 @@ After completing this experiment, the student is able to:
 This experiment demonstrates how to integrate a Flask backend with a MySQL database and perform CRUD operations with validation. It provides practical understanding of database connectivity, API development, and data validation in backend systems.
 
 ---
+
+<img width="1519" height="911" alt="Checking SERVER SS" src="https://github.com/user-attachments/assets/117966a4-483f-434c-833d-8a4673848b3e" />
+
+<img width="1519" height="850" alt="CREATE Student SS" src="https://github.com/user-attachments/assets/de048d78-b8ee-4bc4-a6f5-34f8c152069e" />
+
