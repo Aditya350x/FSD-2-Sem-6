@@ -104,7 +104,39 @@ This experiment demonstrates how to integrate a Flask backend with a MySQL datab
 
 ---
 
+## 📸 Screenshots
+
+Checking SERVER
 <img width="1519" height="911" alt="Checking SERVER SS" src="https://github.com/user-attachments/assets/117966a4-483f-434c-833d-8a4673848b3e" />
 
+CREATE Student
 <img width="1519" height="850" alt="CREATE Student SS" src="https://github.com/user-attachments/assets/de048d78-b8ee-4bc4-a6f5-34f8c152069e" />
+
+GET ALL Students
+<img width="1519" height="860" alt="GET ALL Students SS" src="https://github.com/user-attachments/assets/eb1e573a-17ea-4f2c-b110-3fe07198224f" />
+
+GET ONE Student
+<img width="1518" height="857" alt="GET ONE Student SS" src="https://github.com/user-attachments/assets/0ded9324-6aef-4c24-8da6-c2a2153d2cb9" />
+
+UPDATE Student
+<img width="1518" height="871" alt="UPDATE Student SS" src="https://github.com/user-attachments/assets/33655e33-af6d-40c5-b429-c28311524b2e" />
+
+DELETE Student
+<img width="1517" height="868" alt="DELETE Student SS" src="https://github.com/user-attachments/assets/1646662d-fbfa-4d62-8db4-6ace467ca7b9" />
+
+Deployed on RENDER
+<img width="1525" height="816" alt="Deployed on RENDER SS" src="https://github.com/user-attachments/assets/f3966183-b6d0-4048-ad25-3ec2fae7b1aa" />
+
+BUILD Confirmation
+<img width="1880" height="912" alt="BUILD Confirmation SS" src="https://github.com/user-attachments/assets/a4ef776c-c8e9-40ce-97fe-68b999599f36" />
+
+Aiven SQL
+<img width="1875" height="966" alt="Aiven SQL SS" src="https://github.com/user-attachments/assets/a68cec3c-8615-4828-b6c7-a47c6b4b83bd" />
+
+
+
+
+
+
+
 
