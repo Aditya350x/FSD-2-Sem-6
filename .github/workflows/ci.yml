@@ -8,47 +8,37 @@ branches: ["main"]
 
 jobs:
 backend:
-name: Backend Testing
 runs-on: ubuntu-latest
 
 steps:
-  - name: Checkout Code
-    uses: actions/checkout@v4
+  - uses: actions/checkout@v4
 
-  - name: Setup Python
-    uses: actions/setup-python@v5
+  - uses: actions/setup-python@v5
     with:
       python-version: "3.11"
 
-  - name: Install Backend Dependencies
-    run: |
+  - run: |
       cd Testing/Backend
       pip install -r requirements.txt
 
-  - name: Run Backend Tests
-    run: |
+  - run: |
       cd Testing/Backend
       pytest
 
 frontend:
-name: Frontend Testing
 runs-on: ubuntu-latest
 
 steps:
-  - name: Checkout Code
-    uses: actions/checkout@v4
+  - uses: actions/checkout@v4
 
-  - name: Setup Node
-    uses: actions/setup-node@v4
+  - uses: actions/setup-node@v4
     with:
       node-version: "20"
 
-  - name: Install Frontend Dependencies
-    run: |
+  - run: |
       cd Testing/Frontend
       npm install
 
-  - name: Run Frontend Tests
-    run: |
+  - run: |
       cd Testing/Frontend
       npx vitest run
