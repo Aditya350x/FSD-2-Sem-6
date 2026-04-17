@@ -1,4 +1,4 @@
-name: TESTING CI Pipeline
+name: CI Pipeline
 
 on:
 push:
@@ -11,7 +11,6 @@ backend:
 name: Backend Testing
 runs-on: ubuntu-latest
 
-```
 steps:
   - name: Checkout Code
     uses: actions/checkout@v4
@@ -30,13 +29,11 @@ steps:
     run: |
       cd Testing/Backend
       pytest
-```
 
 frontend:
 name: Frontend Testing
 runs-on: ubuntu-latest
 
-```
 steps:
   - name: Checkout Code
     uses: actions/checkout@v4
@@ -55,4 +52,3 @@ steps:
     run: |
       cd Testing/Frontend
       npx vitest run
-```
