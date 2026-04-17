@@ -37,20 +37,7 @@ Git & GitHub
 
 ## 🧩 Project Structure  
 
-experiment-16/  
-│── backend/  
-│   ├── app.py  
-│   ├── test_app.py  
-│   ├── requirements.txt  
-│── frontend/  
-│   ├── src/  
-│   │   ├── App.jsx  
-│   │   ├── App.test.jsx  
-│   ├── package.json  
-│── .github/workflows/  
-│   └── ci.yml  
-│── README.md  
-│── screenshots/  
+<img width="508" height="688" alt="image" src="https://github.com/user-attachments/assets/138f48ea-56c7-4de9-adaf-af1641b4ecdf" />
 
 ---
 
