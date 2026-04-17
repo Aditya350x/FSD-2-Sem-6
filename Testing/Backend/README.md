@@ -1,58 +1,95 @@
-📘 Full Stack Development 2 – Experiment 8
-DEVELOP RESTFUL APIs USING BACKEND FRAMEWORK (FLASK)
-👤 Student Details
-Name: Aditya Vardhan Singh
-UID: 23BDA70124
-Section: 23BDA-1B
-Subject: Full Stack Development-2 (FSD-II)
-Semester: 6
+# 📘 Full Stack Development 2 – Experiment 16  
+## PERFORM UNIT TESTING FOR FRONTEND AND BACKEND MODULES
 
-🧪 Experiment Title
-Develop RESTful APIs using Flask (Python Backend Framework)
+---
 
-🎯 Aim of the Experiment
-To develop RESTful APIs using the Flask backend framework in Python, implement CRUD operations for student data stored in-memory, test the APIs using Postman, and deploy the application on the Render platform.
+## 👤 Student Details  
+Name: Aditya Vardhan Singh  
+UID: 23BDA70124  
+Section: 23BDA-1B  
+Subject: Full Stack Development-2 (FSD-II)  
+Semester: 6  
 
-🛠️ Tools & Technologies Required
-Visual Studio Code
-Python 3.x
-Flask
-Postman
-Render (Deployment Platform)
-Git & GitHub
-REST Architecture
+---
 
-🧩 Project Structure
-experiment-8/
-│── app.py
-│── requirements.txt
-│── README.md
-│── screenshots/
-│── .gitignore
+## 🧪 Experiment Title  
+Perform Unit Testing for Frontend and Backend Modules using Pytest and Vitest
 
-⚙️ Backend Implementation
-The backend server was created using Flask. Student data is stored in an in-memory Python list (array). CRUD operations were implemented using RESTful API principles.
+---
 
-🧪 Testing
-All CRUD operations were tested using Postman.
+## 🎯 Aim of the Experiment  
+To implement unit testing for backend APIs using Pytest and frontend components (forms) using Vitest, execute tests via CLI/Terminal, and automate testing using GitHub Actions workflow.
 
-Screenshots of successful API requests and responses are included in the submission zip file.
+---
 
-🚀 Deployment on Render
-The project was deployed on the Render cloud platform by connecting the GitHub repository and configuring the build and start commands.
+## 🛠️ Tools & Technologies Required  
+Visual Studio Code  
+Python 3.x  
+Flask  
+Pytest  
+Node.js & npm  
+React (Vite)  
+Vitest  
+GitHub Actions  
+Git & GitHub  
 
-Demo Link: (Add your Render deployment link here)
+---
 
-✅ Result
-The RESTful API server was successfully developed using Flask. All CRUD operations (Create, Read, Update, Delete) were implemented and tested using Postman. The application was deployed successfully on Render and made accessible via a public URL.
+## 🧩 Project Structure  
 
-📚 Learning Outcomes
+experiment-16/  
+│── backend/  
+│   ├── app.py  
+│   ├── test_app.py  
+│   ├── requirements.txt  
+│── frontend/  
+│   ├── src/  
+│   │   ├── App.jsx  
+│   │   ├── App.test.jsx  
+│   ├── package.json  
+│── .github/workflows/  
+│   └── ci.yml  
+│── README.md  
+│── screenshots/  
+
+---
+
+## 🧪 Testing
+
+Testing was performed using CLI/Terminal.
+
+Testing included:
+
+- Backend API testing using Pytest  
+- Frontend component/form testing using Vitest  
+- Verification of test results in terminal output  
+
+Screenshots of successful test execution are included in the submission zip file.
+
+---
+
+## ✅ Result  
+
+Unit testing was successfully implemented for both backend and frontend modules. Backend APIs were tested using Pytest, and frontend components were tested using Vitest. All tests executed successfully through CLI/Terminal and GitHub Actions workflow.
+
+---
+
+## 📚 Learning Outcomes  
+
 After completing this experiment, the student is able to:
 
-Understand RESTful API architecture
-Develop backend applications using Flask
-Implement CRUD operations
-Handle JSON request and response data
-Test APIs using Postman
-Deploy backend applications on Render
-Work with in-memory data storage
+- Understand unit testing concepts  
+- Perform backend testing using Pytest  
+- Perform frontend testing using Vitest  
+- Write test cases for APIs and UI components  
+- Execute tests using CLI/Terminal  
+- Automate testing using GitHub Actions  
+- Understand CI/CD integration  
+
+---
+
+## 📌 Conclusion  
+
+This experiment demonstrates the implementation of unit testing for both backend and frontend modules. By using Pytest and Vitest, the application was tested efficiently to ensure reliability and correctness. Integration with GitHub Actions enabled automated testing, improving development workflow and code quality.
+
+---
