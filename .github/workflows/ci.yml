@@ -1,44 +1,57 @@
-name: CI Pipeline
+name: Fullstack Tests
 
 on:
-push:
-branches: ["main"]
-pull_request:
-branches: ["main"]
+  push:
+    branches: [ main ]
+  pull_request:
 
 jobs:
-backend:
-runs-on: ubuntu-latest
 
-steps:
-  - uses: actions/checkout@v4
+  backend-test:
+    runs-on: ubuntu-latest
 
-  - uses: actions/setup-python@v5
-    with:
-      python-version: "3.11"
+    defaults:
+      run:
+        working-directory: Testing/Backend
 
-  - run: |
-      cd Testing/Backend
-      pip install -r requirements.txt
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-  - run: |
-      cd Testing/Backend
-      pytest
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
 
-frontend:
-runs-on: ubuntu-latest
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
 
-steps:
-  - uses: actions/checkout@v4
+      - name: Run backend tests
+        run: |
+          source venv/bin/activate
+          pytest
 
-  - uses: actions/setup-node@v4
-    with:
-      node-version: "20"
+  frontend-test:
+    runs-on: ubuntu-latest
 
-  - run: |
-      cd Testing/Frontend
-      npm install
+    defaults:
+      run:
+        working-directory: Testing/Frontend
 
-  - run: |
-      cd Testing/Frontend
-      npx vitest run
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run frontend tests
+        run: npx vitest run
