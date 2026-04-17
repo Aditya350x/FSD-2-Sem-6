@@ -59,28 +59,43 @@ Screenshots of successful test execution are included below and in the submissio
 
 Backend Testing & Coverage [Terminal]
 
+
 <img width="1704" height="1017" alt="Screenshot 2026-04-17 175716" src="https://github.com/user-attachments/assets/77d9620a-f90d-474c-8ffb-330002ae70ef" />
+
 <img width="1704" height="1017" alt="Screenshot 2026-04-17 180124" src="https://github.com/user-attachments/assets/93c6b6fc-c18d-48ee-882f-8dfa49e52f66" />
+
 <img width="1347" height="899" alt="Screenshot 2026-04-17 180321" src="https://github.com/user-attachments/assets/17aaba17-99f4-49da-8005-70ecec7cda67" />
+
 
 Frontend Testing & Coverage [Terminal]
 
+
 <img width="1706" height="1023" alt="Screenshot 2026-04-17 180524" src="https://github.com/user-attachments/assets/12368364-ead7-4066-874f-123cd7890d5c" />
+
 <img width="1704" height="1018" alt="Screenshot 2026-04-17 180640" src="https://github.com/user-attachments/assets/7bc2df85-fcc8-45fc-a98c-50182d2273be" />
+
 <img width="1919" height="958" alt="Screenshot 2026-04-17 180743" src="https://github.com/user-attachments/assets/88a753dc-f9d8-4f2e-b254-4f902216aaf7" />
+
 
 GitHub Action Workflow
 
+
 <img width="1919" height="888" alt="Screenshot 2026-04-17 215840" src="https://github.com/user-attachments/assets/d48958f2-724d-408c-a064-44dc17700fe9" />
+
 <img width="1692" height="901" alt="Screenshot 2026-04-17 215114" src="https://github.com/user-attachments/assets/a5332de9-1c1c-4935-843f-6a0cdf7a8523" />
+
 
 Backend Action
 
+
 <img width="1665" height="896" alt="Screenshot 2026-04-17 215359" src="https://github.com/user-attachments/assets/b8115b8d-0729-46da-ab58-b07d1d255ad4" />
+
 
 Frontend Action
 
+
 <img width="1665" height="898" alt="Screenshot 2026-04-17 215420" src="https://github.com/user-attachments/assets/2b28ac3a-5098-4b0b-90d2-f1f18a166f71" />
+
 
 ## ✅ Result  
 
