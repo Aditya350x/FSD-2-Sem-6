@@ -1,6 +1,6 @@
 # 📘 Full Stack Development 2 – Experiment 16  
 ## PERFORM UNIT TESTING FOR FRONTEND AND BACKEND MODULES
-[On GitHub - Testing & github/workflows]
+
 ---
 
 ## 👤 Student Details  
