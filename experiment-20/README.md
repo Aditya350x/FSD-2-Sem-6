@@ -1,5 +1,5 @@
-# 📘 Full Stack Development 2 – Experiment 16  
-## PERFORM UNIT TESTING FOR FRONTEND AND BACKEND MODULES
+# 📘 Full Stack Development 2 – Experiment 20  [FINAL EXP]
+## IMPLEMENT CI/CD PIPELINE FOR APPLICATION DEPLOYMENT
 
 ---
 
@@ -13,112 +13,116 @@ Semester: 6
 ---
 
 ## 🧪 Experiment Title  
-Perform Unit Testing for Frontend and Backend Modules using Pytest and Vitest
+Implement CI/CD Pipeline for Application Deployment using Docker and GitHub Actions
 
 ---
 
 ## 🎯 Aim of the Experiment  
-To implement unit testing for backend APIs using Pytest and frontend components (forms) using Vitest, execute tests via CLI/Terminal, and automate testing using GitHub Actions workflow.
+To implement a Continuous Integration and Continuous Deployment (CI/CD) pipeline by integrating testing from Experiment-16, containerizing the backend using Docker, and automating build and deployment using GitHub Actions.
 
 ---
 
 ## 🛠️ Tools & Technologies Required  
 Visual Studio Code  
-Python 3.x  
-Flask  
-Pytest  
-Node.js & npm  
-React (Vite)  
-Vitest  
+Python (Flask Backend)  
+Docker  
 GitHub Actions  
 Git & GitHub  
+Pytest (from Experiment-16)  
 
 ---
 
 ## 🧩 Project Structure  
 
-<img width="508" height="688" alt="image" src="https://github.com/user-attachments/assets/138f48ea-56c7-4de9-adaf-af1641b4ecdf" />
+ 
+
+---
+
+## ⚙️ Backend Containerization (Docker)
+
+The backend application was containerized using Docker.
 
 ---
 
 ## 🧪 Testing
 
-Testing was performed using VS CodeTerminal.
+Testing was performed using CLI/Terminal and integrated into the CI/CD pipeline.
 
 Testing included:
 
 - Backend API testing using Pytest  
-- Frontend component/form testing using Vitest  
-- Verification of test results in terminal output  
-
-Screenshots of successful test execution are included below and in the submission zip file.
+- Automated test execution in GitHub Actions  
+- Verification of containerized application  
 
 ---
 
 ## 📸 Screenshots
 
-Backend Testing & Coverage [Terminal]
+Backend Running via Docker
+
+(<Screenshot 2026-04-22 191902-1.png>)
 
 
-<img width="1704" height="1017" alt="Screenshot 2026-04-17 175716" src="https://github.com/user-attachments/assets/77d9620a-f90d-474c-8ffb-330002ae70ef" />
+Docker Image
 
-<img width="1704" height="1017" alt="Screenshot 2026-04-17 180124" src="https://github.com/user-attachments/assets/93c6b6fc-c18d-48ee-882f-8dfa49e52f66" />
-
-<img width="1347" height="899" alt="Screenshot 2026-04-17 180321" src="https://github.com/user-attachments/assets/17aaba17-99f4-49da-8005-70ecec7cda67" />
+(<Screenshot 2026-04-22 191959.png>)
 
 
-Frontend Testing & Coverage [Terminal]
+Docker Container
+
+(<Screenshot 2026-04-22 192019.png>)
 
 
-<img width="1706" height="1023" alt="Screenshot 2026-04-17 180524" src="https://github.com/user-attachments/assets/12368364-ead7-4066-874f-123cd7890d5c" />
+Docker Running in VSC Terminal/CLI
 
-<img width="1704" height="1018" alt="Screenshot 2026-04-17 180640" src="https://github.com/user-attachments/assets/7bc2df85-fcc8-45fc-a98c-50182d2273be" />
+(<Screenshot 2026-04-22 192127.png>)
 
-<img width="1919" height="958" alt="Screenshot 2026-04-17 180743" src="https://github.com/user-attachments/assets/88a753dc-f9d8-4f2e-b254-4f902216aaf7" />
-
-
-GitHub Action Workflow
+(<Screenshot 2026-04-22 192157.png>)
 
 
-<img width="1919" height="888" alt="Screenshot 2026-04-17 215840" src="https://github.com/user-attachments/assets/d48958f2-724d-408c-a064-44dc17700fe9" />
+GitHub Actions Workflow
 
-<img width="1692" height="901" alt="Screenshot 2026-04-17 215114" src="https://github.com/user-attachments/assets/a5332de9-1c1c-4935-843f-6a0cdf7a8523" />
+(<Screenshot 2026-04-22 192627.png>)
 
+(<Screenshot 2026-04-22 192700.png>)
 
-Backend Action
+(<Screenshot 2026-04-22 192602.png>)
 
-
-<img width="1665" height="896" alt="Screenshot 2026-04-17 215359" src="https://github.com/user-attachments/assets/b8115b8d-0729-46da-ab58-b07d1d255ad4" />
-
-
-Frontend Action
-
-
-<img width="1665" height="898" alt="Screenshot 2026-04-17 215420" src="https://github.com/user-attachments/assets/2b28ac3a-5098-4b0b-90d2-f1f18a166f71" />
-
-
-## ✅ Result  
-
-Unit testing was successfully implemented for both backend and frontend modules. Backend APIs were tested using Pytest, and frontend components were tested using Vitest. All tests executed successfully through CLI/Terminal and GitHub Actions workflow.
 
 ---
 
-## 📚 Learning Outcomes  
+## 🚀 Deployment
+
+The application was deployed using Docker container.
+
+- Docker image was created successfully  
+- Container was run using CLI  
+- Application was accessible via mapped port  
+
+---
+
+## ✅ Result
+
+The CI/CD pipeline was successfully implemented. Backend testing from Experiment-16 was integrated, Docker image was created, and the application was deployed using a container. GitHub Actions automated the testing and deployment process.
+
+---
+
+## 📚 Learning Outcomes
 
 After completing this experiment, the student is able to:
 
-- Understand unit testing concepts  
-- Perform backend testing using Pytest  
-- Perform frontend testing using Vitest  
-- Write test cases for APIs and UI components  
-- Execute tests using CLI/Terminal  
-- Automate testing using GitHub Actions  
-- Understand CI/CD integration  
+- Understand CI/CD concepts  
+- Integrate automated testing in pipelines  
+- Create Docker images and run containers  
+- Containerize backend applications  
+- Use GitHub Actions for automation  
+- Deploy applications using CI/CD workflows  
+- Understand DevOps practices  
 
 ---
 
-## 📌 Conclusion  
+## 📌 Conclusion
 
-This experiment demonstrates the implementation of unit testing for both backend and frontend modules. By using Pytest and Vitest, the application was tested efficiently to ensure reliability and correctness. Integration with GitHub Actions enabled automated testing, improving development workflow and code quality.
+This experiment demonstrates the implementation of a CI/CD pipeline using Docker and GitHub Actions. By automating testing and deployment, development becomes more efficient and reliable. The experiment provides practical exposure to DevOps tools and modern deployment practices.
 
 ---
