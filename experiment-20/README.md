@@ -34,8 +34,9 @@ Pytest (from Experiment-16)
 
 ## 🧩 Project Structure  
 
- 
+<img width="552" height="860" alt="Screenshot 2026-04-22 194849" src="https://github.com/user-attachments/assets/2ab003f1-2661-437e-893d-f52d33e1c5d9" />
 
+ 
 ---
 
 ## ⚙️ Backend Containerization (Docker)
@@ -60,33 +61,33 @@ Testing included:
 
 Backend Running via Docker
 
-(<Screenshot 2026-04-22 191902-1.png>)
+<img width="1587" height="918" alt="Screenshot 2026-04-22 191902" src="https://github.com/user-attachments/assets/9fc8e099-7ab8-42a1-b5ee-545d9c46c2b6" />
 
 
 Docker Image
 
-(<Screenshot 2026-04-22 191959.png>)
+<img width="1862" height="863" alt="Screenshot 2026-04-22 191959" src="https://github.com/user-attachments/assets/61fb3f67-4137-4535-9982-0fc56410288b" />
 
 
 Docker Container
 
-(<Screenshot 2026-04-22 192019.png>)
+<img width="1860" height="878" alt="Screenshot 2026-04-22 192019" src="https://github.com/user-attachments/assets/9b3c6278-1d74-416a-8de3-e3676f73eac6" />
 
 
 Docker Running in VSC Terminal/CLI
 
-(<Screenshot 2026-04-22 192127.png>)
+<img width="1752" height="1016" alt="Screenshot 2026-04-22 192127" src="https://github.com/user-attachments/assets/5483b3eb-c44e-4127-a7c6-17971da01cff" />
 
-(<Screenshot 2026-04-22 192157.png>)
+<img width="1748" height="1017" alt="Screenshot 2026-04-22 192157" src="https://github.com/user-attachments/assets/ef5e7942-ad12-4811-8c83-9c21cc004142" />
 
 
 GitHub Actions Workflow
 
-(<Screenshot 2026-04-22 192627.png>)
+<img width="1899" height="709" alt="Screenshot 2026-04-22 192627" src="https://github.com/user-attachments/assets/eb605875-d321-49cd-a139-76a2dce6eb15" />
 
-(<Screenshot 2026-04-22 192700.png>)
+<img width="1692" height="888" alt="Screenshot 2026-04-22 192700" src="https://github.com/user-attachments/assets/fa106385-2906-4fcd-a91e-f26f77e2c43c" />
 
-(<Screenshot 2026-04-22 192602.png>)
+<img width="1919" height="888" alt="Screenshot 2026-04-22 192602" src="https://github.com/user-attachments/assets/9cf10527-6b8e-46f3-b4a0-925d0de15118" />
 
 
 ---
