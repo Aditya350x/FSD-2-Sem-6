@@ -11,17 +11,13 @@ pymysql.install_as_MySQLdb()
 app = Flask(__name__)
 
 # Update MySQL credentials below
-DB_USER = os.getenv("DB_USER")
-DB_PASSWORD = os.getenv("DB_PASSWORD")
-DB_HOST = os.getenv("DB_HOST")
-DB_NAME = os.getenv("DB_NAME")
-DB_PORT = os.getenv("DB_PORT")
+host = os.getenv("DB_HOST", "db")
+user = os.getenv("DB_USER", "root")
+password = os.getenv("DB_PASSWORD", "root123")
+database = os.getenv("DB_NAME", "chandigarh_university_db")
 
-app.config['SQLALCHEMY_DATABASE_URI'] = (
-    f"mysql+pymysql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
-    "?ssl_ca=ca.pem"
-)
-db = SQLAlchemy(app)
+app.config['SQLALCHEMY_DATABASE_URI'] = f'mysql+pymysql://{user}:{password}@{host}/{database}'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # ===============================
 # Student Model
