@@ -34,8 +34,7 @@ Pytest (from Experiment-16)
 
 ## 🧩 Project Structure  
 
-<img width="552" height="860" alt="Screenshot 2026-04-22 194849" src="https://github.com/user-attachments/assets/2ab003f1-2661-437e-893d-f52d33e1c5d9" />
-
+<img width="556" height="809" alt="Screenshot 2026-04-22 195120" src="https://github.com/user-attachments/assets/7fee8998-437c-4633-9fe5-e2a428caee96" />
  
 ---
 
