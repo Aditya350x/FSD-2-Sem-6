@@ -8,40 +8,26 @@ pull_request:
 jobs:
 backend-test:
 runs-on: ubuntu-latest
-
-
 defaults:
-  run:
-    working-directory: experiment-20/Testing/Backend
-
+run:
+working-directory: experiment-20/Testing/Backend
 steps:
-  - uses: actions/checkout@v4
-
-  - uses: actions/setup-python@v5
-    with:
-      python-version: "3.11"
-
-  - run: pip install -r requirements.txt
-
-  - run: pytest
-
+- uses: actions/checkout@v4
+- uses: actions/setup-python@v5
+with:
+python-version: "3.11"
+- run: pip install -r requirements.txt
+- run: pytest
 
 frontend-test:
 runs-on: ubuntu-latest
-
-
 defaults:
-  run:
-    working-directory: experiment-20/Testing/Frontend
-
+run:
+working-directory: experiment-20/Testing/Frontend
 steps:
-  - uses: actions/checkout@v4
-
-  - uses: actions/setup-node@v4
-    with:
-      node-version: "20"
-
-  - run: npm install
-
-  - run: npx vitest run
-
+- uses: actions/checkout@v4
+- uses: actions/setup-node@v4
+with:
+node-version: "20"
+- run: npm install
+- run: npx vitest run
